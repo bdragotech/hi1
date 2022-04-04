@@ -1,0 +1,16 @@
+penPattern("rainbowLine");
+penWidth(100);
+for (var count = 0; count < 450; count++) {
+  jumpTo(13);
+  moveForward(100);
+  moveBackward(101);
+  turnLeft(2);
+  moveForward(25);
+  drawSticker("Bird", null);
+  moveForward(25);
+  drawSticker("Peacock", null);
+  moveForward(50);
+  drawSticker("Owl", null);
+  moveForward(50);
+  drawSticker("Penguin", null);
+}
